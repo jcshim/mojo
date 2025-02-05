@@ -1,14 +1,23 @@
 # mojo
 mojo language
 
-```mojo1
+## 컴파일
+### $ nano hello.mojo
+### $ mojo hello.mojo
+### $ ./hello
+
+## 실행파일
+### $ mojo build hello.mojo
+### $ ./hello
+
+```hello.mojo
 def main():
     print("Hello Mojo 🔥!")
     for x in range(9, 0, -3):
         print(x, end=" ")
 ```
 
-```mojo2
+```add.mojo
 fn add(a: Int, b: Int) -> Int:
     return a + b
 
@@ -16,7 +25,7 @@ fn main():
     print(add(5, 3))
 ```
 
-```mojo3
+```add_key.mojo
 from python import Python
 
 fn add(a: Int, b: Int) -> Int:
