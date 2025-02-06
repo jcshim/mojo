@@ -1,5 +1,5 @@
 # mojo
-mojo language
+[mojo language manual](https://docs.modular.com/mojo/manual/)
 
 ## 컴파일
 ### $ nano hello.mojo
